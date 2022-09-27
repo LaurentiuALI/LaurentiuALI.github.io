@@ -7,11 +7,11 @@
 
 ## 💭About me.
 Over the past two years, I have gotten in touch a lot with Computer Science, from studying programming languages, algorithmics, data structures, web development, and doing research along with writing a scientific paper. \
-I'm interested in evolving a career as a software developer as I am just starting out.\
+I'm interested in evolving a career as a software developer as I am just starting out. \
 
-✅ Enjoy challenges 👷‍♀️/
-✅ Ready for new experiences ✨/
-✅ Learning ethusiast 📚/
+✅ Enjoy challenges 👷‍♀️ \
+✅ Ready for new experiences ✨ \
+✅ Learning ethusiast 📚 \
 
 I am currently writing my BSc thesis.
 
