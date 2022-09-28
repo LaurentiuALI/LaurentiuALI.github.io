@@ -95,7 +95,7 @@ span{
 .col-2{
     flex-basis:60%;
 }
-.col-1 img{
+.container .col-1 img{
     width: 35rem;
     height: 35rem;
     border-radius: 50%;
