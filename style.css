@@ -63,7 +63,7 @@ nav ul li a:hover::after{
 }
 .logo h1{
     font-family: 'Times New Roman', Times, serif;
-    font-size:2.4rem;
+    font-size:3rem;
 }
 .logo h1 span{
     font-family: 'Academy Engraved LET', sans-serif;
@@ -80,4 +80,75 @@ span{
 }
 .header-text h1{
     font-size: 2rem;
+}
+
+
+/* ABOUT */
+#about .container{
+    display:flex;
+    justify-content: space-between;
+    margin: 4rem 0;
+}
+.col-1{
+    flex-basis:35%;
+}
+.col-2{
+    flex-basis:60%;
+}
+.col-1 img{
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+}
+.col-2 p{
+    font-family: 'Open Sans', sans-serif;
+    margin-top:0.5rem;
+}
+.col-2 h1{
+    margin-bottom: 1rem;
+}
+
+.tab-titles{
+    display:flex;
+    margin: 1.5rem 0 3rem;
+}
+.tab-links{
+    margin: 0px 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor:pointer;
+    position:relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgba(var(--primary));
+    position:absolute;
+    left:0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links.active-link::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background: rgba(var(--primary));
+    position:absolute;
+    left:0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-contents ul li{
+    margin-top:1.5rem;
+    list-style: none;
+}
+.tab-contents ul li span{
+    color:rgba(var(--primary));
+    font-size:1.2rem;
+}
+.tab-contents p{
+    display: inline;
+
 }
