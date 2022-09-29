@@ -20,7 +20,7 @@
       <div class="container">
         <nav>
           <div class="logo">
-            <h1>Laurențiu<span>AI</span></h1>
+            <h1 id="logome">Laurențiu<span>AI</span></h1>
           </div>
           <ul class="menu">
             <li><a href="#">Home</a></li>
@@ -63,11 +63,13 @@
           </p>
 
           <div class="tab-titles">
-            <p class="tab-links active-link">Skills</p>
-            <p class="tab-links">Experience</p>
-            <p class="tab-links">Education</p>
+            <p class="tab-links active-link" onclick="opentab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
           </div>
-          <div class="tab-contents">
+          <div class="tab-contents active-tab" id="skills">
             <ul>
               <li>
                 <span>Programming</span><br />
@@ -88,7 +90,7 @@
               </li>
             </ul>
           </div>
-          <div class="tab-contents">
+          <div class="tab-contents" id="experience">
             <ul>
               <li>
                 <span>07/2022 - 08/2022</span>
@@ -104,7 +106,7 @@
               </li>
             </ul>
           </div>
-          <div class="tab-contents">
+          <div class="tab-contents" id="education">
             <ul>
               <li>
                 <span>West University of Timisoara</span>
@@ -132,5 +134,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -152,3 +152,9 @@ span{
     display: inline;
 
 }
+.tab-contents{
+    display: none;
+}
+.tab-contents.active-tab{
+    display:block;
+}
