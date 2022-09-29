@@ -11,7 +11,10 @@
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
     </style>
-
+    <script
+      src="https://kit.fontawesome.com/cab2a533c2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" class="rel" />
   </head>
   <body>
@@ -23,9 +26,9 @@
             <h1 id="logome">Laurențiu<span>AI</span></h1>
           </div>
           <ul class="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portofolio</a></li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portofolio">Portofolio</a></li>
             <li><a href="#">Contact me</a></li>
           </ul>
         </nav>
@@ -46,7 +49,7 @@
           <img src="images/about-photo.jpg" alt="" />
         </div>
         <div class="col-2">
-          <h1>💭About me</h1>
+          <h1 class="sub-title">💭About me</h1>
           <h2>💻 Computer Science Final Year Student @UVT.</h2>
           <h2>🔭 Former Erasmus student @JKU.</h2>
           <p>
@@ -132,6 +135,50 @@
             </ul>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!------------ PORTOFOLIO  ------------->
+    <div id="portofolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h2>Food Mood</h2>
+              <p>
+                Managing account functionalities build on a Food Delivery Web
+                Application
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="" />
+            <div class="layer">
+              <h2>Sports Event Planner</h2>
+              <p>
+                Web Application where anyone can participate and host a sport
+                event
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h2>Scientific Paperwork</h2>
+              <p>
+                Ascertaining the fastest algorithm for sorting in various
+                conditions using experiments
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+          
+          <a href="#" class="btn"> <i class="fa-brands fa-github" />  See More</a>
       </div>
     </div>
     <script src="script.js"></script>
