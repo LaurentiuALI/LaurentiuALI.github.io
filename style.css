@@ -26,7 +26,8 @@ body{
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: 3.25rem;
-    background-size:contain;
+    background-size:20%;
+    background-position-y: 25.8rem;
 }
 .container{
     padding: 0.75rem 10%;
@@ -99,6 +100,36 @@ span{
 .header-text a:hover{
    font-size:5.5rem;
    color: rgba(var(--primary));
+}
+
+.header-text .text{
+    position: relative;
+}
+.text.first-text{
+    color: #FFF;
+}
+.text.second-text{
+    font-family:"Poppins", sans-serif;
+    font-size: 5rem;
+}
+.text.second-text:before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: #080808;
+    border-left: 2px solid rgba(var(--primary));
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left:100%;
+    }
+    100%{
+        left: 0%;
+    }
 }
 
 
@@ -294,7 +325,9 @@ span{
     #header ul li{
         margin-left: 0;
     }
-
+    .text.second-text{
+        font-size:2rem;
+    }
     /* ABOUT */
     #about{
         padding: 0;
@@ -378,5 +411,6 @@ span{
         padding: 0.5rem;
         margin-left: 6.5rem;
     }
+    
     
 }

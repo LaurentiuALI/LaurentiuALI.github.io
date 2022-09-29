@@ -10,3 +10,22 @@ function opentab(tabname){
     event.target.classList.add('active-link');
     document.getElementById(tabname).classList.add('active-tab');
 }
+
+const text = document.querySelector(".second-text"); 
+
+const textLoad = () =>{
+    setTimeout(() => {
+        text.textContent = "Laurentiu"
+    }, 0);
+    setTimeout(() => {
+        text.textContent = "Student"
+    }, 4000);
+    setTimeout(() => {
+        text.textContent = "Former Erasmus"
+    }, 8000);
+    setTimeout(() => {
+        text.textContent = "Software Engineer"
+    }, 12000);
+}
+textLoad();
+setInterval(textLoad, 12000);
