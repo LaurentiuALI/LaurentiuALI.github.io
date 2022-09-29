@@ -95,6 +95,7 @@ span{
     transition: font-size 0.5s;
 
 }
+
 .header-text a:hover{
    font-size:5.5rem;
    color: rgba(var(--primary));
